@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: "Red Hat Mono";
+ 
+}
+*::-webkit-scrollbar {
+  width: 3px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family:"Red Hat Mono";
+ ;
+}
+button {
+  cursor: pointer !important;
+  transition: all 0.3s ease;
+}
+button:active {
+  transform: scale(0.9, 0.9);
+  transition: all 0.3s ease;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+@media (min-width: 1600px) {
+  * {
+      font-size: 14px;
+ }
+}
+@media (min-width: 2200px) {
+  * {
+      font-size: 16px;
+ }
+}
+@media (max-width: 1028px) {
+  * {
+      font-size: 12px;
+ }
+}
+@media (max-width: 1024px) {
+  * {
+      font-size: 11px;
+ }
+}
+@media (max-width: 992px) {
+  * {
+      font-size: 11px;
+ }
+}
+.footer-wrapper {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding: 0rem 4rem;
+  z-index: 3;
+}
+@media (max-width: 767px) {
+  .footer-wrapper {
+      z-index: 99;
+      padding: 0 3rem;
+ }
+}
+@media (max-width: 767px) {
+  .mobile-footer-hide {
+      display: none;
+ }
+}

@@ -1,0 +1,16 @@
+.n-button {
+    background: #1e1e1e;
+    border: 1px solid #ffe2c7;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 20px 36px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #ffe2c7;
+    min-width: 190px;
+    cursor: pointer;
+}

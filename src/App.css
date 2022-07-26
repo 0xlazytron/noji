@@ -1,0 +1,381 @@
+#rarible{
+  margin-right: 20px;
+}
+.MuiLinearProgress-barColorPrimary{
+  background-color: #3CBA8B !important;
+}
+#MuiLinearProgress{
+  background-color: #3CBA8B !important;
+}
+/* font-face */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+font-family: 'fs';
+src: url('fonts/fs_lite.otf')
+}
+@font-face {
+font-family: 'origin';
+src: url('fonts/origin.otf')
+}
+@font-face {
+font-family: 'atom';
+src: url('fonts/atom.otf')
+}
+@font-face {
+font-family: 'erth';
+src: url('fonts/earth.otf')
+}
+/* navigation menu */
+.navbar-brand {
+font-size: 1.563rem;
+}
+.navbar-nav {
+flex-direction: row;
+margin: 0 !important;
+}
+.navbar-nav li {
+display: grid;
+align-items: center;
+margin: 0 0.5rem;
+}
+.navbar-nav li img {
+width: 2.4rem;
+}
+.bvJEJO{
+  background-color: transparent !important;
+}
+#center{
+  align-items: center !important;
+  text-aligh: center !important;
+}
+.clr_orng{
+color: #FF9700 !important;
+}
+#ape{
+font-size:50px;
+color: #ffffff;
+font-family: 'origin', sans-serif;
+}
+#mate{
+font-size:46px;
+color: #ffffff;
+font-family: 'origin', sans-serif;
+}
+#fs{
+font-family: 'Titillium Web', sans-serif;
+font-size: 18px;
+}
+#er{
+font-family: 'erth', sans-serif;
+font-size:46px;
+color: #FF9700;
+}
+#br{
+font-family: 'Titillium Web', sans-serif;
+font-size: 24px !important;
+color: #FF9700;
+}
+#connect{
+font-size:20px;
+color: white;
+font-family: 'Titillium Web', sans-serif;
+
+background-color:#FF9700 !important;
+}
+/* hero */
+/* .hero {
+display: grid;
+text-align: center;
+padding-top: 40px;
+height: 100vh;
+background: url('../images/background.png') no-repeat center;
+background-size: 100%;
+background-position: 50% 0%;
+} */
+#connect{
+  background-color: none !important;
+}
+.hero .content h1 {
+text-transform: uppercase;
+font-family: 'origin', sans-serif;
+}
+
+@media (min-width: 768px) {
+.hero .content {
+  max-width: 45rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+
+/* whitelist */
+.whitelist {
+text-align: center;
+display: flex;
+}
+.whitelist .split {
+display: flex;
+flex-direction: column-reverse;
+gap: 2rem;
+}
+.whitelist .media {
+display: flex;
+flex-flow: column;
+justify-content: center;
+gap: 1rem;
+}
+.whitelist .media img {
+border-radius: 100%;
+border: 5px solid #ffffff;
+width: 13rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (min-width: 768px) {
+.whitelist {
+  text-align: start;
+}
+.whitelist .split {
+  flex-direction: column;
+}
+.whitelist .media {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+}
+@media (min-width: 992px) {
+.whitelist .split {
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+}
+
+/* roadmap */
+.roadmap {
+display: grid;
+align-items: center;
+text-align: center;
+min-height: 80vh;
+}
+.roadmap .container .content {
+display: flex;
+flex-direction: column;
+gap: 3rem;
+margin: 3rem 0;
+position: relative;
+}
+.roadmap .container .content:after {
+content: '';
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: 50%;
+border-left: 5px dotted #00a7a7;
+}
+
+.roadmap .ape-card .avatar img {
+border-radius: 100%;
+width: 10rem;
+border: 3px solid #fff;
+}
+
+.roadmap .sect-info {
+max-width: 45rem;
+margin-right: auto;
+margin-left: auto;
+}
+
+.roadmap .ape-card .info {
+background-color: #2d2d2d;
+max-width: 20rem;
+margin: 0 auto;
+padding: 1rem;
+border-radius: 10px;
+}
+
+.roadmap .ape-card {
+display: flex;
+flex-flow: column;
+gap: 2rem;
+}
+@media (min-width: 768px) {
+.c1 {
+  position: relative;
+  left: 6rem;
+}
+.ape-card.c1:after {
+  content: '';
+  background-color: #00a7a7;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  position: absolute;
+  left: -11.5rem;
+  right: 0;
+  top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #fff;
+}
+.ape-card.c2:after {
+  content: '';
+  background-color: #00a7a7;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  position: absolute;
+  left: 12.5rem;
+  right: 0;
+  top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #fff;
+}
+.c2 {
+  position: relative;
+  left: -6rem;
+}
+.vl {
+  border-left: 2px dashed #00a8a9;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.row-rev {
+  flex-flow: row-reverse !important;
+}
+.roadmap .ape-card {
+  flex-flow: row;
+  gap: 5rem !important;
+  justify-content: center;
+}
+.roadmap .ape-card .info {
+  margin: 0;
+}
+}
+
+/* team */
+.team {
+text-align: center;
+}
+.team .team-card {
+width: 15rem;
+margin: 0 auto;
+}
+.team .avatar img {
+border-radius: 100%;
+width: 10rem;
+border: 5px solid #fff;
+margin-bottom: 1rem;
+}
+.team .content {
+display: flex;
+flex-flow: column;
+justify-content: center;
+gap: 3rem;
+margin: 3rem 0;
+}
+
+@media (min-width: 768px) {
+.team .content {
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+}
+
+/* faq */
+.faq-heading {
+margin-top: 45px;
+margin-bottom: 15px;
+text-align: center;
+font-weight: 400;
+font-size: 30px;
+}
+
+.faq-card {
+background-color: #282828;
+border-radius: 6px;
+padding: 24px 20px;
+margin-bottom: 12px;
+list-style: none;
+position: relative;
+cursor: pointer;
+transition: 1s;
+max-height: 4.5rem;
+}
+
+.faq-open-icon {
+position: absolute;
+top: 18px;
+right: 24px;
+font-weight: 700;
+background-color:  #FF9700;
+height: 2rem;
+width: 2rem;
+border-radius: 100%;
+}
+.kQqLqx {
+  background: #fff !important;
+  color : #FF9700 !important;
+}
+.left-o{
+  align: center !important;
+}
+
+.faq-open-icon.material-icons {
+display: grid;
+place-content: center;
+}
+.MuiButton-contained{
+  background: transparent !important;
+  color : #FF9700 !important;
+  box-shadow : none !important;
+  padding : 0 !important;
+}
+.faq-card .body {
+margin-top: 1rem;
+transition: 500ms;
+opacity: 0;
+}
+
+/* footer */
+footer {
+height: 20vh;
+background-color: #282828;
+padding: 2rem 0;
+}
+footer .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+footer a {
+color: #fff;
+place-content: center;
+transition: 300ms;
+}
+
+footer a img {
+width: 2rem;
+}
+footer ul {
+list-style: none;
+margin: 0;
+display: flex;
+gap: 1rem;
+}
+footer .footer-brand{
+position:relative;
+float: left;
+}
+
+
