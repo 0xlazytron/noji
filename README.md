@@ -17,7 +17,7 @@ The Black Women.
 #### Method 2: Install From Source
 
 ```bash
-$ git clone https://www.github.com/eliot404/noji.git
+$ git clone https://www.github.com/0xlazytron/noji.git
 $ yarn add all
 $ yarn start
 ```
